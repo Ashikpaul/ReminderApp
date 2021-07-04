@@ -1,0 +1,50 @@
+
+
+body{
+  background-color: darkgray;
+}
+
+.App {
+  font-family: monospace;
+}
+
+header, footer{
+  text-align: center
+}
+
+.createReminder{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createReminder .ms-TextField{
+  width: 30vw;
+}
+
+.reminders{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.oldReminders{
+  width: 20vw;
+  background-color: lightgray;
+  padding: 1%;
+  margin: 1%;
+}
+
+.ReminderCards{
+  width: 20vw;
+  background-color: lightgreen;
+  padding: 1%;
+  margin: 1%;
+}
+
+footer{
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
